@@ -8,8 +8,15 @@
  # Installation
  1. Clone this repo.
  2. Open the console in the project directory.
+    ![image](https://github.com/carlosm27/api-exercise/assets/70811425/f6ec4707-53d3-42df-9844-064d9d14fd10)
+
  3. Run the `go mod tidy` to install all the dependencies.
- 4. Run `go run github/carlosm27/api-exercise` command to start the server.
+
+
+ 4. Run `go run main.go` command to start the server.
+    ![image](https://github.com/carlosm27/api-exercise/assets/70811425/736b55d2-322c-4489-925d-ccf061b7de99)
+
+
     
  # Use
  The server will start on port 10000. It has five routes:
