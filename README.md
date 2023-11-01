@@ -23,5 +23,5 @@
  I keep the handlers and the database setup separate in different folders to test them and reuse them.
  Also in this case I'm using SQLite, and it will not be difficult to change to other database, without modifying the handlers.
  
- This decision makes the code maintainable if the API grows in more routes or models. Any issue relate to the handlers will be address by looking in the handlers folder.
+ This decision makes the code maintainable if the API grows in more routes and models. Any issue relate to the handlers will be address by looking in the handlers folder.
  The same goes to any issue with the database.
