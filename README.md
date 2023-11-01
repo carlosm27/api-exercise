@@ -20,7 +20,8 @@
  - DELETE `/product/:sku` for deleting a product.
 
  # Architectural Decision
- I keep the handlers and the database setup separate in different folders to test them easily and reuse them.
- Also in this case I'm using SQLite, and it will easy to change to other database, without modifying the handlers.
- This decision makes the code easy to maintain if the API grows in more routes or models. Any issue relate to the handlers will be easy to address just looking in the handlers folder.
+ I keep the handlers and the database setup separate in different folders to test them and reuse them.
+ Also in this case I'm using SQLite, and it will not be difficult to change to other database, without modifying the handlers.
+ 
+ This decision makes the code maintainable if the API grows in more routes or models. Any issue relate to the handlers will be address by looking in the handlers folder.
  The same goes to any issue with the database.
